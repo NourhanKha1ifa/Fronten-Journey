@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="rubic cube">
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Cardholder Name:</label><br />
+      <input 
+        type="text" 
+        id="card-name" 
+        name="card-name" 
+        placeholder="John Doe" 
+        required 
+        aria-required="true"/><br/><br/>
+
+      <label for="card-number">Card Number:</label><br/>
+      <input 
+        type="text" 
+        id="card-number" 
+        name="card-number" 
+        placeholder="1234 5678 9012 3456" 
+        required 
+        aria-required="true"/><br/><br/>
+        
+        <button type="submit">Submit Payment</button>
+        </form>
+    </section>
+</body>
+
+</html>
